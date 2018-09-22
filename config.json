@@ -1,0 +1,10 @@
+[
+    {
+        "type":"mongodb",
+        "value":{
+            "url":"mongodb://192.168.2.220:27020/",
+            "username":"",
+            "password":""
+        }
+    }
+]
