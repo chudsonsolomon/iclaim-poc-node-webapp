@@ -3,6 +3,11 @@ var router = express.Router();
 var clientService = require('../services/ClientService');
 var commonHelper = require('../helper/commonHelper');
 
+router.get('/ping', function(req, res, next) {
+  res.send({"STATUS":"SUCCESS","MESSAGE":"DISPLAYED SUCCESSFULLY"});
+  
+});
+
 /* GET home page. */
 router.post('/RegisterSurvey', function(req, res, next) {
   var data = req.body.formInput;
